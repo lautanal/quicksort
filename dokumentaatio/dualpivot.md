@@ -10,4 +10,4 @@ Kolme näin saatua osajoukkoa käsitellään rekursiivisesti samalla algoritmill
 
 <img src="png/dualpivotpseudocode.png" width="750">
 
-Tiedostossa [src/quicksort_dualpivot.h](https://github.com/lautanal/quicksort/blob/master/src/quicksort_dualpivot.h) on vastaava toteutus C++ -kielellä.
+Tiedostossa [src/quicksort_dualpivot.h](https://github.com/lautanal/quicksort/blob/master/src/quicksort_dualpivot.h) on toteutus C++ -kielellä.

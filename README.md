@@ -18,6 +18,8 @@ Tutkielmassa tehtiin empiirisiä testejä eri pikajärjestämismenetelmillä. Te
 
 [Kolmen jakoalkion pikajärjestäminen](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/threepivot.md)
 
+[Viiden tai useamman jakoalkion pikajärjestäminen](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/fivepivot.md)
+
 [Toteutusdokumentti](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/toteutusdokumentti.md)
 
 [Käyttöohje](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/kayttoohje.md)
