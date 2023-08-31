@@ -1,0 +1,11 @@
+Compile:
+g++ .src/qs.cpp -o .src/qs
+
+Run:
+./src/qs 3 s 1000000
+
+3 = 3 pivot
+s = string
+f = float
+i = integer
+1000000 = array size
