@@ -1,14 +1,14 @@
 # Usean alkion pikajärjestäminen
 
-<img src="dokumentaatio/png/ruutukartta.png" width="750">
+<img src="dokumentaatio/png/dualpivot.png" width="750">
 
-Järjestämisalgoritmit ovat olleet keskeinen osa tietojenkäsittelyä informaatioajan alusta alkaen. Algoritmien tehtävänä on järjestää tietojoukon alkiot jonkin loogisen järjestyksen mukaan. Yleensä kyseessä on alkioiden suuruusjärjestys tiettyjen ominaisuuksien perusteella.
+Pikajärjestäminen on ehkä käytetyin järjestämisalgoritmi. Se toimii kaikenlaisen datan kanssa ja on yleensä kaikkein nopein menetelmä varsinkin suurilla syötteillä. Pikajärjestäminen on monien ohjelmointiympäristöjen (Java, C++) pääasiallinen järjestämisalgoritmi.
 
-Tavoitteena on toteuttaa järjestäminen mahdollisimman tehokkaasti. Järjestämisalgoritmeja voidaan verrata toisiinsa aika- ja tilavaativuuden sekä vakauden perusteella. Aikavaativuuden vertailuissa on huomioitava sekä keskimääräinen saavutettava nopeus että pahimman tapauksen nopeus.
+Pikajärjestämisestä on viimeisten kymmenen vuoden kuluessa tullut uusia kehitelmiä, joilla on saatu tehokkuutta kasvatettua entisestään. Usean jakoalkion järjestämisalgoritmit ovat jo yleisessä käytössä, mutta parempia algoritmeja on edelleen kehitteillä.
 
-On helppoa järjestää joukko alkioita ajassa O(n2). Pienellä tietomäärällä tämä nopeus riittää hyvin, mutta suurilla syötteillä tämä on liian hidasta. Suurien syötteiden järjestämiseen on kehitetty tehokkaita rekursiivisia algoritmejä, joilla päästään O(n log n) nopeuteen. Näitä ovat muun muassa lomitusjärjestäminen ja pikajärjestäminen, jotka kehitettiin jo 1940- ja 1950-luvuilla.
+Tässä tutkielmassa tarkastellaan eri pikajärjestämisalgoritmeja sekä niiden tehokkuuden riippuvuutta eri tekijöistä. Tehokkuuden arvioinnissa on myös otettava huomioon, miten hyvin algoritmi käyttää hyväksi tietokoneen resursseja. Usean jakoalkion pikajärjestämisalgoritmien tehokkuuden lisäyksen on osoitettu johtuvan suurimmaksi osaksi välimuistin käytön tehostumisesta eikä niinkään algoritmien nopeudesta.
 
-Viimeisten kymmenen vuoden aikana on otettu käyttöön uusia muunnoksia rekursiivisista järjestämisalgoritmeista. Lomitusjärjestämisestä on kehitetty edelleen hybridimenetelmä Timsort, joka on käytössä mm. Pythonin kirjastorutiineissa. Klassisesta pikajärjestämisestä on puolestaan kehitetty kahden ja usean jakoalkion pikajärjestämismenetelmiä (dual pivot quicksort, multi pivot quicksort). Java käyttää nykyään pääasiallisena järjestämisalgoritminaan kahden jakoalkion pikajärjestämistä.
+Tutkielmassa tehtiin empiirisiä testejä eri pikajärjestämismenetelmillä. Testien tulokset ovat samansuuntaiset kuin eri menetelmien julkaistut teoreettiset ja kokeelliset tulokset. Teoreettiset tarkastelut osoittavat, että jakoalkioiden määrän optimi on neljä tai viisi. Jakoalkioiden määrää rajoittaa jakoalkioiden optimaalisen valinnan hankaluus.
 
 ## Dokumentaatio
 
