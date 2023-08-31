@@ -14,7 +14,7 @@ Testikoneena käytettiin Macbook Pro tietokonetta, jossa on 2.5GHz Intel Core I7
 Aikavaativuusvertailujen tulokset ovat varsin hyvin yhtäpitävät aikaisemmin julkaistujen tulosten kanssa (kuva 6.1). Tehokkuus riippuu toki paljon vertailuissa käytetyn tietokoneen arkkitehtuurista, joten suora vertailu toisiin tutkimuksiin on vaikeaa.
 Kahden jakoalkion algoritmi on testien mukaan noin 10% klassista pikajärjestämistä nopeampi. Kolmen jakoalkion algoritmi on puolestaan noin 6–7% parempi kuin kahden jakoalkion menetelmä.
 
-<img src="dokumentaatio/png/runrime_own.png" width="750">
+<img src="png/runrime_own.png" width="750">
 
 ### Suorituskyvyn testaus
 
