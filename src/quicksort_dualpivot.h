@@ -1,7 +1,8 @@
 // quicksort_dualpivot.h
 
-// Dual pivot quicksort algorithm
+// Dual pivot quicksort algorithms
 
+// Yaroslavskiy dual pivot algorithm
 template <typename Iterator>
 void quicksort_dual_pivot(Iterator left, Iterator right) {
     typedef typename std::iterator_traits<Iterator>::value_type value_type;
@@ -51,7 +52,7 @@ void quicksort_dual_pivot(Iterator left, Iterator right) {
     quicksort_dual_pivot(gt+1, right);
 }
 
-
+// Comparison to larger pivot first
 template <typename Iterator>
 void quicksort_dual_pivot_largerfirst(Iterator left, Iterator right) {
     typedef typename std::iterator_traits<Iterator>::value_type value_type;
