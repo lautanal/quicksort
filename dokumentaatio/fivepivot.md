@@ -7,4 +7,4 @@ Alkioiden väliset siirrot toteutetaan yleensä usean alkion rotaatioina, jolloi
 
 <img src="png/cyclicshifts.png" width="750">
 
-Tiedostossa [src/quicksort_fivepivot.h](https://github.com/lautanal/quicksort/blob/master/src/quicksort_threepivot.h) on eräs toteutus C++ -kielellä.
+Tiedostossa [src/quicksort_fivepivot.h](https://github.com/lautanal/quicksort/blob/master/src/quicksort_fivepivot.h) on eräs toteutus C++ -kielellä.
