@@ -1,5 +1,6 @@
 // Functions to select pivot points
 
+
 template <typename Iterator>
 void median_3(Iterator left, Iterator right) {
     Iterator mid = left + (right - left)/2;
