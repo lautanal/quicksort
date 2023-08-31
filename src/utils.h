@@ -1,6 +1,5 @@
 // utils.h
 
-
 // Functions to generate, check and print arrays
 
 // Random string generator

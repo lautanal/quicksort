@@ -1,6 +1,6 @@
 // swaps.h
 
-// Swapping of elements in an array
+// Swapping and rotation of elements in an array
 
 template <typename Type>
 void swap(Type &a, Type &b) {
