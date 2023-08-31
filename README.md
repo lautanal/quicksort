@@ -23,8 +23,3 @@ Tutkielmassa tehtiin empiirisiä testejä eri pikajärjestämismenetelmillä. Te
 [Empiiriset kokeet](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/testausdokumentti.md)
 
 [Käyttöohje](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/kayttoohje.md)
-
-## Releaset
-
-[Loppupalautus](https://github.com/lautanal/quicksort/releases/tag/Final)
-
