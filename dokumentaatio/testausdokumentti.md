@@ -35,4 +35,4 @@ Operaatiomäärien mittaukset on tehty miljardin alkion satunnaiskokonaislukutau
 
 Kushagra et al. ja Wild ovat esittäneet, että järjestämisalgoritmien nopeus riippuu ennen kaikkea alkioiden käsittelyjen määrästä.  Saavutetut tulokset tukevat tätä väittämää.
 
-<img src="png/table1.png" width="750">
+<img src="png/table2.png" width="750">
