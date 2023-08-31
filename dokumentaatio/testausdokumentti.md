@@ -27,11 +27,12 @@ Testeissä laskettiin myös ohjelmallisesti algoritmien tekemien operaatioiden m
 
 • alkioiden käsittelyjen määrä (element scans)
 
-Alkioiden vaihtojen (swaps) sijaan on laskettu alkioiden kirjoituskäskyjen määrä, koska alkioiden paikat vaihdetaan pääasiassa usean alkion rotaatioina. Alkioiden kirjoituksia tulee luonnollisesti melkein kaksi kertaa niin paljon kuin vaihtoja. Alkioiden käsittelyiksi lasketaan ne operaatiot, joissa uusi taulukon alkio otetaan käsittelyyn. Käytännössä tämä tapahtuu ohjelmassa silloin, kun joku taulukon alkioihin osoittavista indekseistä muuttaa paikkaa. Kahden jakoalkion algoritmissa on kolme paikan indeksiä ja kolmen jakoalkion algoritmissa neljä indeksiä. Niistä jokaisen siirto kasvattaa alkioiden käsittelyjen määrää yhdellä.
+Alkioiden vaihtojen (swaps) sijaan on laskettu alkioiden kirjoituskäskyjen määrä, koska alkioiden paikat vaihdetaan pääasiassa usean alkion rotaatioina. Alkioiden kirjoituksia tulee luonnollisesti melkein kaksi kertaa niin paljon kuin vaihtoja.
 
-Operaatiomäärien mittaukset on tehty miljardin alkion satunnaiskokonaislukutaulukoilla (unsigned integer, vaihteluväli 1 – 4 000 000 000). Mitatut operaatiomäärät ovat melko lähellä Aumüllerin (2016) julkaisemia teoreettisia keskiarvoja. Tulokset ovat allaolevassa taulukossa.
+Alkioiden käsittelyiksi lasketaan ne operaatiot, joissa uusi taulukon alkio otetaan käsittelyyn. Käytännössä tämä tapahtuu ohjelmassa silloin, kun joku taulukon alkioihin osoittavista indekseistä muuttaa paikkaa. Kahden jakoalkion algoritmissa on kolme paikan indeksiä ja kolmen jakoalkion algoritmissa neljä indeksiä. Niistä jokaisen siirto kasvattaa alkioiden käsittelyjen määrää yhdellä.
+
+Operaatiomäärien mittaukset on tehty miljardin alkion satunnaiskokonaislukutaulukoilla (unsigned integer, vaihteluväli 1 – 4 000 000 000). Mitatut operaatiomäärät ovat melko lähellä Aumüllerin julkaisemia teoreettisia keskiarvoja. Tulokset ovat allaolevassa taulukossa.
 
 Kushagra et al. ja Wild ovat esittäneet, että järjestämisalgoritmien nopeus riippuu ennen kaikkea alkioiden käsittelyjen määrästä.  Saavutetut tulokset tukevat tätä väittämää.
 
 <img src="png/table1.png" width="750">
-
