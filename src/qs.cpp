@@ -38,6 +38,8 @@ void quicksort_start(string sortmode, Iterator left, int size) {
         quicksort_five_pivot(left,right);
     } else if (sortmode == "s") {
         std::sort(left, right+1);
+    } else {
+        quicksort_classic(left,right);
     }
 }
 
@@ -101,6 +103,8 @@ int main (int argc, char** argv) {
         cout << "\nFive pivot quicksort:\n";
     } else if (sortmode == "s") {
         cout << "\nC++ standard sort:\n";
+    } else {
+        cout << "\nClassic quicksort:\n";
     }
 
 // Time counter initialization
