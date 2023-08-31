@@ -1,3 +1,5 @@
+// Insertion sort algorithm
+
 template <typename Iterator>
 void insertion_sort(Iterator lo, Iterator hi) {
     
