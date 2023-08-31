@@ -1,7 +1,8 @@
 // quicksort_threepivot.h
 
-// Three pivot quicksort algorithm
+// Three pivot quicksort algorithms
 
+// Kushagra algorithm
 template <typename Iterator>
 void quicksort_three_pivot(Iterator left, Iterator right) {
     typedef typename std::iterator_traits<Iterator>::value_type value_type;
@@ -65,6 +66,7 @@ void quicksort_three_pivot(Iterator left, Iterator right) {
 }
 
 
+// Optimum algorithm
 template <typename Iterator>
 void quicksort_three_pivot_optimum(Iterator left, Iterator right) {
     typedef typename std::iterator_traits<Iterator>::value_type value_type;
