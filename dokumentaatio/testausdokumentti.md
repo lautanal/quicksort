@@ -18,4 +18,5 @@ Kahden jakoalkion algoritmi on testien mukaan noin 10% klassista pikajärjestäm
 
 ### Suorituskyvyn testaus
 
+
 Suorituskykyä on vertailu eri kokoisilla random-kartoilla.  Paras reitti on haettu samalla kartalla eri menetelmillä.  Suorituskykyvertailun lisäksi on tarkastettu, että menetelmät antavat yhtäpitävät tulokset (polut voivat joskus olla hieman eroavat jos löytyy useampi yhtä hyvä reitti).  Suorituskykytestin tulokset löytyvät toteutusdokumentista.
