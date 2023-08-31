@@ -12,9 +12,9 @@ Tutkielmassa tehtiin empiirisiä testejä eri pikajärjestämismenetelmillä. Te
 
 ## Dokumentaatio
 
-[Tehtävän määrittely](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/maarittelydokumentti.md)
+[Klassinen pikajärjestäminen](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/classic.md)
 
-[Testausdokumentti](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/testausdokumentti.md)
+[Kahden jakoalkion pikajärjestäminen](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/dualpivot.md)
 
 [Toteutusdokumentti](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/toteutusdokumentti.md)
 

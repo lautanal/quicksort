@@ -1,83 +1,13 @@
-# Käyttöohje
+# Klassinen yhden alkion pikajärjestäminen
 
-## Klassinen yhden alkion pikajärjestäminen
+<img src="png/classic.png" width="750">
 
-<img src="png/ui3.png" width="750">
+Klassisen pikajärjestämisen periaatteena on jakaa taulukko kahteen osaan ns. jakoalkion (pivot) perusteella. Taulukon alkioita verrataan jakoalkioon ja ne järjestetään siten, että jakoalkiota pienemmät alkiot ovat sen vasemmalla puolella, suuremmat alkiot sen oikealla puolella ja yhtä suuret alkiot voivat olla kummalla puolella tahansa (Kuva 2.1).
 
-## Ohjelman asentaminen
+Taulukon jako kahteen osaan voidaan toteuttaa usealla eri tavalla. Jakoalkioksi voidaan valita mikä tahansa alkio ja lisäksi on monia tapoja siirtää alkioita. Alla on Sedgewickin ositusalgoritmi pseudokoodina, jossa jakoalkioksi valitaan aina järjestettävän välin ensimmäinen eli kohdassa left oleva alkio.
 
-Ohjelma kopioidaan haluttuun hakemistoon.
-
-Hakemistoon luodaan virtuaaliympäristö seuraavasti:
-
-$ poetry install
+<img src="png/classic_pseudocode.png" width="750">
 
 ## Ohjelman käynnistäminen
 
 Ohjelma käynnistetään asennushakemistossa komennolla:
-
-$ poetry run python3 src/bestroute.py
-
-## Käyttöliittymä
-
-Sovellusta käytetään Pygamella luodun käyttöliittymän avulla :
-
-<img src="png/ui3.png" width="750">
-
-Käyttäjä valitsee lähtö- ja maaliruudun hiiren vasemmalla näppäimellä.  Kun lähtö ja maali on valittu, hiiren vasemmalla näppäimellä voi asettaa esteet, joiden läpi reitti ei voi kulkea.
-Lähdön ja maalin sekä esteet voi poistaa hiiren oikealla näppäimellä.
-
-Haluttu menetelmä reitin hakemiseen valitaan näppäimellä m.
-
-Laskenta käynnistetään näppäimellä s.
-
-## Komennot
-
-### Näppäinkomennot:
-
-s : start, laskee parhaan reitin
-
-c : clear, poistaa lähtö- ja maalipisteet
-
-r : reset, pyyhkii lasketun reitin
-
-m : metodi, Dijkstra / A* / IDA* / JPS
-
-d : diagonal, polun tyyppi, vain x ja y-suunnat / väli-ilmansuunnat sallittu
-
-a : animointi, päälle / pois
-
-n: new, generoi uuden painotetun random-kartan
-
-g: generate, generoi uuden painottamattoman random-kartan (kaikki ruudut saman arvoisia)
-
-t : test, ohjelma käy läpi kymmenen painotettua random-testikarttaa (koko 100 x 100) ja laskee keskimääräisen hakuajan eri menetelmille
-
-\+ : lisää ruutujen lukumäärää 10 prosentilla molemmissa suunnissa ja generoi uuden kartan
-
-\- : vähentää ruutujen lukumäärää 10 prosentilla molemmissa suunnissa ja generoi uuden kartan
-
-1 : lataa kartta 1.map (hakemistosta data/maps)
-
-2 : lataa kartta 2.map (hakemistosta data/maps)
-
-w : write, talleta kartta tiedostoon f.map (hakemistoon data/maps)
-
-f : file, lue karttatiedosto f.map (hakemistosta data/maps)
-
-### Hiiren toiminnot:
-
-Hiiren vasen näppäin valitsee reitin lähtöpisteen (jos sitä ei ole ennestään kartalla)
-
-Hiiren vasen näppäin valitsee reitin maalipisteen (kun lähtöpiste on valittu ja maalipiste puuttuu)
-
-Hiiren vasen näppän asettaa esteen (kun alku- ja maalipiste on asetettu)
-
-Hiiren oikea näppäin pyyhkii ruudun (alkupisteen, maalipisteen tai esteen)
-
-Editoinnissa hiiren vasen näppäin lisää ruudun painoarvoa, oikea vähentää
-
-
-
-
-
