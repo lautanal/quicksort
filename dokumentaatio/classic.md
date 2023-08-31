@@ -8,6 +8,6 @@ Taulukon jako kahteen osaan voidaan toteuttaa usealla eri tavalla. Jakoalkioksi 
 
 <img src="png/classic_pseudocode.png" width="750">
 
-## Ohjelman käynnistäminen
+Tiedostossa quicksort_classic.h on C++ vastaava toteutus C++ -kielellä.
 
-Ohjelma käynnistetään asennushakemistossa komennolla:
+[Vastaava toteutus C++ -kielellä](https://github.com/lautanal/quicksort/blob/master/src/quicksort_classic.h)
