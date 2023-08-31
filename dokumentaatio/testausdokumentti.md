@@ -1,29 +1,19 @@
-## Testausdokumentti
+## Empiiriset kokeet
 
-### Yksikkötestit
+### Ohjelmat
 
-Yksikkötestit eivät ole niin tärkeitä tässä sovelluksessa, koska ohjelman toiminta varmistetaan parhaiten vertailemalla visuaalisesti eri menetelmien tuloksia testikartoilla.  Olen kuitenkin tehnyt melko kattavat yksikkötestit, jotka ovat hyödyksi jos ohjelmaan tehdään jatkossa muutoksia.  Käyttöliittymä ja Pygame-piirtorutiinit on jätetty testauksen ulkopuolelle.
+Kirjoitin kanditutkielmaa varten C++ -ohjelmia, joilla eri algoritmien tehokkuutta voidaan mitata empiirisesti. Ohjelmilla voidaan vertailla yhden, kahden ja kolmen jakoalkion algoritmeja toisiinsa.
+Ohjelmat löytyvät kansiosta src. Ohjelmat perustuvat pääosin julkaistuihin pseudokoodeihin (Wild ja Aumüller ja Dietzfelbinger)
+Käytetyt algoritmit ovat ns. perusversioita. Jakoalkioiden valintaa ei ole optimoitu, ne valitaan aina samalla tavalla vakiopaikoista. Ainoastaan lisäysjärjestäminen otetaan käyttöön, kun osataulukon koko pienenee tietyn rajan alle.
+Algoritmien optimoinnilla voitaisiin käsittääkseni saada vielä usean kymmenen prosentin arannus tehokkuuteen
 
-Yksikkötestit suoritetaan komennolla: poetry run coverage run --branch -m pytest src
+### Ajoaika
 
-Testikattavuus voidaan raportoida komennolla: poetry run coverage report -m 
+Testikoneena käytettiin Macbook Pro tietokonetta, jossa on 2.5GHz Intel Core I7 -prosessori ja 16GB keskusmuistia. Mittauksissa järjestettiin eri kokoisia satunnaiskokonaislukutaulukoita. Taulukoiden koko vaihteli välillä 210 − 230 (1 024 − 1 073 741 824).
+Aikavaativuusvertailujen tulokset ovat varsin hyvin yhtäpitävät aikaisemmin julkaistujen tulosten kanssa (kuva 6.1). Tehokkuus riippuu toki paljon vertailuissa käytetyn tietokoneen arkkitehtuurista, joten suora vertailu toisiin tutkimuksiin on vaikeaa.
+Kahden jakoalkion algoritmi on testien mukaan noin 10% klassista pikajärjestämistä nopeampi. Kolmen jakoalkion algoritmi on puolestaan noin 6–7% parempi kuin kahden jakoalkion menetelmä.
 
-Kattavuusraportti:
-
-<img src="/dokumentaatio/png/testikattavuus.png" width="750">
-
-### Empiirinen testaus
-
-Testaus on ollut pääosin kokeilevaa, manuaalista empiiristä testaamista.  Graafinen käyttöliittymä antaa tähän hyvän mahdollisuuden.
-
-Graafinen käyttöliittymä helpottaa huomattavasti ohjelman toiminnan varmistamisessa ja räikeimpien ongelmien selvittämisessä. Esimerkiksi voidaan havaita, poikkeaako laskennan antama "paras" polku merkittävästi silmämääräisesti parhaalta tai lyhimmältä polulta. 
-
-Graafisen käyttöliittymän avulla varmistetaan helposti, että eri algoritmit antavat aina saman lopputuloksen samalla karttapohjalla ja samoilla lähtöarvoilla.
-
-Ottamalla animaatio käyttöön, voidaan lisäksi tarkastella eri algoritmien etenemistä ja mitkä solmut ovat kulloinkin käsittelyssä ja missä järjestyksessä.  
-
-\
-<img src="/dokumentaatio/png/testi06a.png" width="750">
+<img src="/runtime_own/png/testi06a.png" width="750">
 
 ### Suorituskyvyn testaus
 

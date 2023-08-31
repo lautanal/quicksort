@@ -1,5 +1,7 @@
 # Viiden jakoalkion pikajärjestäminen
 
+<img src="png/multipivot2.png" width="750">
+
 Usean jakoalkion algoritmeissa käytetään yleensä parittomia määriä jakoalkioita. Viiden ja seitsemän jakoalkion menetelmät ovat jatkokehitelmiä kolmen jakoalkion algoritmista.
 Alkiota verrataan ensiksi keskimmäiseen jakoalkioon, jolloin tiedetään kummalle puolelle taulukkoa alkio kuuluu. Sen jälkeen jatketaan vertailua muihin jakoalkioihin, kunnes tiedetään alkion tarkka paikka osituksessa.
 
