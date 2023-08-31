@@ -1,6 +1,6 @@
 // quicksort_classic.h
 
-// Classic quicksort algorithm (one pivot)
+// Classic quicksort algorithm (one pivot quicksort)
 
 template <typename Iterator>
 void quicksort_classic(Iterator left, Iterator right) {
