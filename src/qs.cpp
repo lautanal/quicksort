@@ -13,7 +13,7 @@
 
 using namespace std;
 
-// Sorting algorithm functions
+// Calling chosen sorting algorithm function
 
 template <typename Iterator>
 void quicksort_start(string sortmode, Iterator left, int size) {
