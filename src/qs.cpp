@@ -42,7 +42,7 @@ void quicksort_start(string sortmode, Iterator left, int size) {
 }
 
 
-// Main program
+// Quicksort main program
 
 int main (int argc, char** argv) {
     string sortmode = "1";
