@@ -20,7 +20,7 @@ Tutkielmassa tehtiin empiirisiä testejä eri pikajärjestämismenetelmillä. Te
 
 [Viiden tai useamman jakoalkion pikajärjestäminen](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/fivepivot.md)
 
-[Empiirinewn testaus](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/testausdokumentti.md)
+[Empiirinen testaus](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/testausdokumentti.md)
 
 [Käyttöohje](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/kayttoohje.md)
 
