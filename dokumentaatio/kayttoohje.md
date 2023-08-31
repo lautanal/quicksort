@@ -9,12 +9,14 @@ Lataa repositorion tiedostot.  Ohjelmat sijaitsevat kansiossa src.
 Kopioi kansio src haluttuun apikkaan.
 
 Käännä ohjelma seuraavalla komennolla (Linux ja Mac):
-g++ ./src/qs.cpp -o ./src/qs
+g++ ./src/qs.cpp  -o  ./src/qs
 
 ## Ohjelman käynnistäminen
 
 Ohjelma käynnistetään asennushakemistossa komennolla:
-./src/qs 1 i 1000000
+./src/qs
+
+Esim: ./src/qs 1 i 10000000
 
 Komentorivin parametrit:
 - algoritmi (1, 2, 3, 5)
