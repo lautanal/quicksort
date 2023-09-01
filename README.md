@@ -24,4 +24,6 @@ Empiiriset testit koodattiin C++ -ohjelmointikielen versiolla C++11.
 
 [Empiiriset kokeet](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/testausdokumentti.md)
 
+[Ohjelmakoodi](https://github.com/lautanal/quicksort/blob/master/src)
+
 [Käyttöohje](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/kayttoohje.md)
