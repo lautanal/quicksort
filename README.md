@@ -10,6 +10,8 @@ Tässä tutkielmassa tarkastellaan eri pikajärjestämisalgoritmeja sekä niiden
 
 Tutkielmassa tehtiin empiirisiä testejä eri pikajärjestämismenetelmillä. Testien tulokset ovat samansuuntaiset kuin eri menetelmien julkaistut teoreettiset ja kokeelliset tulokset. Teoreettiset tarkastelut osoittavat, että jakoalkioiden määrän optimi on neljä tai viisi. Jakoalkioiden määrää rajoittaa jakoalkioiden optimaalisen valinnan hankaluus.
 
+Empiiriset testit koodattiin C++ -ohjelmointikielen versiolla C++11.
+
 ## Dokumentaatio
 
 [Klassinen pikajärjestäminen](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/classic.md)

@@ -9,7 +9,7 @@ Lataa repositorion tiedostot.  Ohjelmat sijaitsevat kansiossa src.
 Kopioi kansio src haluttuun apikkaan.
 
 Käännä ohjelma seuraavalla komennolla (Linux ja Mac):
-g++ ./src/qs.cpp  -o  ./src/qs
+g++ g++ -std=c++11 ./src/qs.cpp -o src/qs
 
 ## Ohjelman käynnistäminen
 
