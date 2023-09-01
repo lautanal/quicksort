@@ -10,7 +10,7 @@ Algoritmien optimoinnilla voitaisiin käsittääkseni saada vielä usean kymmene
 
 ### Ajoaikakokeet
 
-Testikoneena käytettiin Macbook Pro tietokonetta, jossa on 2.5GHz Intel Core I7 -prosessori ja 16GB keskusmuistia. Mittauksissa järjestettiin eri kokoisia satunnaiskokonaislukutaulukoita. Taulukoiden koko vaihteli välillä 210 − 230 (1 024 − 1 073 741 824).
+Testikoneena käytettiin Macbook Pro tietokonetta, jossa on 2.5GHz Intel Core I7 -prosessori ja 16GB keskusmuistia. Mittauksissa järjestettiin eri kokoisia satunnaiskokonaislukutaulukoita. Taulukoiden koko vaihteli välillä 2^10 − 2^30 (1 024 − 1 073 741 824).
 Aikavaativuusvertailujen tulokset ovat varsin hyvin yhtäpitävät aikaisemmin julkaistujen tulosten kanssa (kuva). Tehokkuus riippuu toki paljon vertailuissa käytetyn tietokoneen arkkitehtuurista, joten suora vertailu toisiin tutkimuksiin on vaikeaa.
 
 Kahden jakoalkion algoritmi on testien mukaan noin 10% klassista pikajärjestämistä nopeampi. Kolmen jakoalkion algoritmi on puolestaan noin 6–7% parempi kuin kahden jakoalkion menetelmä.
@@ -19,7 +19,7 @@ Kahden jakoalkion algoritmi on testien mukaan noin 10% klassista pikajärjestäm
 
 ### Tehokkuusmittarit
 
-Testeissä laskettiin myös ohjelmallisesti algoritmien tekemien operaatioiden määrät. Laskettuja suureita olivat:
+Testeissä laskettiin ohjelmallisesti algoritmien tekemien operaatioiden määrät. Laskettuja suureita olivat:
 
 • alkioiden välisten vertailujen määrä (comparisons)
 
