@@ -1,29 +1,28 @@
-# Usean alkion pikajärjestäminen
+# Multi Pivot Quicksort
 
 <img src="dokumentaatio/png/dualpivot.png" width="750">
 
-Pikajärjestäminen on ehkä käytetyin järjestämisalgoritmi. Se toimii kaikenlaisen datan kanssa ja on yleensä kaikkein nopein menetelmä varsinkin suurilla syötteillä. Pikajärjestäminen on monien ohjelmointiympäristöjen (Java, C++) pääasiallinen järjestämisalgoritmi.
+Quicksort is perhaps the most popular sorting algorithm. It works with any type of data and is usually the fastest method, especially with large input sets. Quicksort is the main sorting algorithm in many programming environments (Java, C++).
 
-Pikajärjestämisestä on viimeisten kymmenen vuoden kuluessa tullut uusia kehitelmiä, joilla on saatu tehokkuutta kasvatettua entisestään. Usean jakoalkion järjestämisalgoritmit ovat jo yleisessä käytössä, mutta parempia algoritmeja on edelleen kehitteillä.
+During the last ten years, there have been new developments in quicksort algorithms, which have increased efficiency substantially. Multi pivot sorting algorithms are already in common use, but better algorithms are still being developed.
 
-Tässä tutkielmassa tarkastellaan eri pikajärjestämisalgoritmeja sekä niiden tehokkuuden riippuvuutta eri tekijöistä. Tehokkuuden arvioinnissa on myös otettava huomioon, miten hyvin algoritmi käyttää hyväksi tietokoneen resursseja. Usean jakoalkion pikajärjestämisalgoritmien tehokkuuden lisäyksen on osoitettu johtuvan suurimmaksi osaksi välimuistin käytön tehostumisesta eikä niinkään algoritmien nopeudesta.
+This thesis examines different quicksort algorithms and the dependence of their efficiency on different factors. When evaluating algorithm efficiency, it is also necessary to take into account how well the algorithm utilizes computer's resources. It has been shown that the increase in efficiency of multi pivot quicksort algorithms is mostly due to the efficiency of cache usage and not so much to the speed of the algorithms.
 
-Tutkielmassa tehtiin empiirisiä testejä eri pikajärjestämismenetelmillä. Testien tulokset ovat samansuuntaiset kuin eri menetelmien julkaistut teoreettiset ja kokeelliset tulokset. Teoreettiset tarkastelut osoittavat, että jakoalkioiden määrän optimi on neljä tai viisi. Jakoalkioiden määrää rajoittaa jakoalkioiden optimaalisen valinnan hankaluus.
+Empirical tests were carried out using different quicksort methods. The results of the tests are similar to the published theoretical and experimental results of different methods. Theoretical studies show that the optimum number of pivots is four or five. The number of pivots is limited by the difficulty of optimal choice of dividing elements.
 
-Empiiriset testit koodattiin C++ -ohjelmointikielen versiolla C++11.
-
+The empirical tests were coded using C++ programming language version C++11.
 ## Dokumentaatio
 
-[Klassinen pikajärjestäminen](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/classic.md)
+[Classic quicksort](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/classic.md)
 
-[Kahden jakoalkion pikajärjestäminen](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/dualpivot.md)
+[Dual Pivot Quicksort](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/dualpivot.md)
 
-[Kolmen jakoalkion pikajärjestäminen](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/threepivot.md)
+[Three Pivot Quicksort](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/threepivot.md)
 
-[Viiden tai useamman jakoalkion pikajärjestäminen](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/fivepivot.md)
+[Five Pivot Quicksort](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/fivepivot.md)
 
-[Empiiriset kokeet](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/testausdokumentti.md)
+[Empirical Tests](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/testdocument.md)
 
-[Ohjelmakoodi](https://github.com/lautanal/quicksort/blob/master/src)
+[Source Code](https://github.com/lautanal/quicksort/blob/master/src)
 
-[Käyttöohje](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/kayttoohje.md)
+[User Manual](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/usermanual.md)

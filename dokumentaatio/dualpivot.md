@@ -1,13 +1,13 @@
-# Kahden jakoalkion pikajärjestäminen
+# Dual Pivot Quicksort
 
 <img src="png/dualpivot.png" width="750">
 
-Kahden jakoalkion pikajärjestämisessä jakoalkioiksi voidaan valita esimerkiksi joukon ensimmäinen ja viimeinen alkio. Näistä voidaan käyttää merkintöjä P 1 ja P 2 (kuva), joista P 1 on pienempi jakoalkio.
+In dual pivot quicksort, the first and the last element of the set can be selected as pivot elements. These are marked with P 1 and P 2 (picture), of which P 1 is the smaller dividing element.
 
-Järjestettävä joukko käydään läpi ja sen alkiot jaetaan kolmeen osajoukkoon. Alkiot, jotka ovat pienempiä kuin P 1 sijoitetaan joukon alkuun. Alkiot, jotka ovat suurempia kuin P 2 sijoitetaan loppuun. Alkiot, jotka ovat suuruudeltaan jakoalkioiden välillä, tai yhtäsuuria, sijoitetaan keskelle (Yaroslavskiy, 2009).
+The set to be sorted is reviewed and its elements are divided into three subsets. Items smaller than P 1 are placed at the beginning of the array. Elements larger than P 2 are placed at the end. Elements that are between or equal in size to the pivot elements are placed in the middle (Yaroslavskiy, 2009).
 
-Kolme näin saatua osajoukkoa käsitellään rekursiivisesti samalla algoritmilla, kunnes koko oukko on järjestyksessä. Alla on kuvattu Yaroslavskiyn kahden jakoalkion ositusalgoritmi pseudokoodina.
+The three subsets obtained in this way are processed recursively with the same algorithm until the whole array is in order. Yaroslavskiy's partitioning algorithm of two pivot elements is described below in pseudocode.
 
 <img src="png/dualpivotpseudocode.png" width="750">
 
-Tiedostossa [src/quicksort_dualpivot.h](https://github.com/lautanal/quicksort/blob/master/src/quicksort_dualpivot.h) on toteutus C++ -kielellä.
+The file [src/quicksort_dualpivot.h](https://github.com/lautanal/quicksort/blob/master/src/quicksort_dualpivot.h) has an implementation in C++.

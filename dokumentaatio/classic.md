@@ -2,10 +2,10 @@
 
 <img src="png/classic.png" width="750">
 
-Klassisen pikajärjestämisen periaatteena on jakaa taulukko kahteen osaan ns. jakoalkion (pivot) perusteella. Taulukon alkioita verrataan jakoalkioon ja ne järjestetään siten, että jakoalkiota pienemmät alkiot ovat sen vasemmalla puolella, suuremmat alkiot sen oikealla puolella ja yhtä suuret alkiot voivat olla kummalla puolella tahansa (Kuva).
+The principle of classic quicksort is to divide a table into two parts, based on a dividing element (pivot). The elements of the table are compared to the pivot element and are arranged in such a way that elements smaller than the pivot element are on the left side of it, larger elements are on the right side of it, and elements of equal size can be on either side (Figure).
 
-Taulukon jako kahteen osaan voidaan toteuttaa usealla eri tavalla. Jakoalkioksi voidaan valita mikä tahansa alkio ja lisäksi on monia tapoja siirtää alkioita. Alla on Sedgewickin ositusalgoritmi pseudokoodina, jossa jakoalkioksi valitaan aina järjestettävän välin ensimmäinen eli kohdassa left oleva alkio.
+Dividing the table into two parts can be done in several different ways. Any element can be selected as the pivot element, and there are also many ways to swap elements. Below is Sedgewick's partitioning algorithm in pseudocode, where the first element of the range to be sorted, i.e. the element at left, is always selected as the pivot element.
 
 <img src="png/classic_pseudocode.png" width="750">
 
-Tiedostossa [src/quicksort_classic.h](https://github.com/lautanal/quicksort/blob/master/src/quicksort_classic.h) on vastaava toteutus C++ -kielellä.
+The file [src/quicksort_classic.h](https://github.com/lautanal/quicksort/blob/master/src/quicksort_classic.h) has a similar implementation in C++.

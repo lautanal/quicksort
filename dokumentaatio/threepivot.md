@@ -1,11 +1,11 @@
-# Kolmen jakoalkion pikajärjestäminen
+# Three Pivot Quicksort
 
 <img src="png/runtime.png" width="750">
 
-Kushagra et al. osoittivat, että jakoalkioiden määrää kasvattamalla voidaan edelleen parantaa pikajärjestämisen tehokkuutta. Kolmen jakoalkion algoritmilla voidaan saavuttaa empiiristen kokeiden perusteella 7-9% parannus verrattuna käytössä oleviin kahden jakoalkion algoritmeihin (kuva yllä)
+Kushagra et al. showed that increasing the number of pivot elements can further improve the efficiency of quicksort. Based on empirical experiments, the three-pivot algorithm can achieve a 7-9% improvement compared to the dual-pivot algorithms in use (picture above)
 
-Kushagran et al. ehdottamassa algoritmissa joukosta valitaan kolme jakoalkiota, esimerkiksi ensimmäinen, toinen ja viimeinen alkio. Nämä laitetaan suuruusjärjestykseen. Kutakin joukon alkiota verrataan ensiksi keskimmäiseen jakoalkioon ja sen jälkeen vielä toiseen kahdesta muusta jakoalkiosta. Joukon alkiot voidaan näin jakaa suuruuden perusteella neljään osajoukkoon, joiden käsittelyä jatketaan rekursiivisesti (kuva alla).
+In the proposed algorithm, three pivot elements are selected from the set, for example the first, second and last element. These are put in order of magnitude. Each element of the set is first compared to the middle dividing element and then to one of the other two dividing elements. The elements of the set can thus be divided into four subsets, which are processed recursively with the same algorithm (picture below).
 
 <img src="png/threepivot.png" width="750">
 
-Tiedostossa [src/quicksort_threepivot.h](https://github.com/lautanal/quicksort/blob/master/src/quicksort_threepivot.h) on toteutus C++ -kielellä.
+The file [src/quicksort_threepivot.h](https://github.com/lautanal/quicksort/blob/master/src/quicksort_threepivot.h) has an implementation in C++.
