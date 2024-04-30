@@ -4,7 +4,7 @@
 
 Quicksort is perhaps the most popular sorting algorithm. It works with any type of data and is usually the fastest method, especially with large input sets. Quicksort is the main sorting algorithm in many programming environments (Java, C++).
 
-During the last ten years, there have been new developments in quicksort algorithms, which have increased efficiency substantially. Classic quicksort algorithm sorts a table according to a single element.  Modern quicksort methods an have multiple dividing elements, i.e. pivots.
+During the last ten years, there have been new developments in quicksort algorithms, which have increased efficiency substantially. Classic quicksort algorithm sorts a table according to a single element.  Modern quicksort methods can have multiple dividing elements, i.e. pivots.
  
 This study examines different quicksort algorithms and their efficiency depending on different factors. When evaluating algorithm efficiency, it is also necessary to take into account how well the algorithm utilizes computer resources. It has been shown that the increase in efficiency of modern quicksort algorithms comes mostly due to the efficient use of cache memory and not so much due to algorithmic efficiency.
 
