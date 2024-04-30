@@ -1,6 +1,6 @@
 # Multi Pivot Quicksort
 
-<img src="dokumentaatio/png/dualpivot.png" width="750">
+<img src="documentation/png/dualpivot.png" width="750">
 
 Quicksort is perhaps the most popular sorting algorithm. It works with any type of data and is usually the fastest method, especially with large input sets. Quicksort is the main sorting algorithm in many programming environments (Java, C++).
 
