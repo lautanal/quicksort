@@ -13,16 +13,16 @@ Empirical tests were carried out using different quicksort methods. The results 
 The empirical tests were coded using C++ programming language version C++11.
 ## Dokumentaatio
 
-[Classic quicksort](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/classic.md)
+[Classic quicksort](https://github.com/lautanal/quicksort/blob/master/documentation/classic.md)
 
-[Dual Pivot Quicksort](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/dualpivot.md)
+[Dual Pivot Quicksort](https://github.com/lautanal/quicksort/blob/master/documentation/dualpivot.md)
 
-[Three Pivot Quicksort](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/threepivot.md)
+[Three Pivot Quicksort](https://github.com/lautanal/quicksort/blob/master/documentation/threepivot.md)
 
-[Five Pivot Quicksort](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/fivepivot.md)
+[Five Pivot Quicksort](https://github.com/lautanal/quicksort/blob/master/documentation/fivepivot.md)
 
-[Empirical Tests](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/testdocument.md)
+[Empirical Tests](https://github.com/lautanal/quicksort/blob/master/documentation/testdocument.md)
 
 [Source Code](https://github.com/lautanal/quicksort/blob/master/src)
 
-[User Manual](https://github.com/lautanal/quicksort/blob/master/dokumentaatio/usermanual.md)
+[User Manual](https://github.com/lautanal/quicksort/blob/master/documentation/usermanual.md)
