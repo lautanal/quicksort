@@ -2,7 +2,7 @@
 
 <img src="png/dualpivot.png" width="750">
 
-In dual pivot quicksort, any two elements of a table can be selected as pivot elements.  For example the first and the last element of the set can be selected as pivot elements. These are marked with P1 and P2 (picture), of which P1 is the smaller dividing element.
+In dual pivot quicksort, any two elements of a table can be selected as pivot elements.  For example the first and the last element of the set can be selected as pivot elements. These are marked with P1 and P2 (figure), of which P1 is the smaller element.
 
 The set to be sorted is reviewed and its elements are divided into three subsets. Items smaller than P1 are placed at the beginning of the array. Elements larger than P2 are placed at the end. Elements that are between or equal in size to the pivot elements are placed in the middle (Yaroslavskiy, 2009).
 
