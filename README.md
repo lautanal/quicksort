@@ -2,13 +2,13 @@
 
 <img src="documentation/png/dualpivot.png" width="750">
 
-Quicksort is perhaps the most popular sorting algorithm. It works with any type of data and is usually the fastest method, especially with large input sets. Quicksort is the main sorting algorithm in many programming environments (Java, C++).
+QuickSort is perhaps the most commonly used sorting algorithm. It works with all types of data and is generally the fastest method, especially for large inputs. QuickSort is the primary sorting algorithm in many programming environments, such as Java and C++.
 
-During the last ten years, there have been new developments in quicksort algorithms, which have increased efficiency substantially. Classic quicksort algorithm sorts a table according to a single element.  Modern quicksort methods can have multiple dividing elements, i.e. pivots.
- 
-This study examines different quicksort algorithms and their efficiency depending on different factors. When evaluating an algorithm efficiency, it is also necessary to take into account how well the algorithm utilizes computer resources. It has been shown that the increase in efficiency of modern quicksort algorithms comes mostly due to the efficient use of cache memory and not so much due to algorithmic efficiency.
+In the past ten years, new developments in QuickSort have further improved its efficiency. Multi-pivot sorting algorithms are already widely used, but even better algorithms are still being developed.
 
-Empirical tests were carried out using different quicksort methods. The results of the tests are similar to the published theoretical and experimental results of different methods. Theoretical studies show that the optimum number of dividing elements (pivots) is four or five. The number of pivots is limited by the difficulty of optimal choice of pivot elements.
+This study examines different QuickSort algorithms and how their efficiency depends on various factors. When evaluating efficiency, it is also important to consider how well the algorithm utilizes the computer’s resources. The efficiency improvements in multi-pivot QuickSort algorithms have been shown to result mainly from better cache utilization rather than increased algorithm speed.
+
+Empirical tests were conducted in this study using different QuickSort methods. The test results align with the published theoretical and experimental results of various methods. Theoretical analysis indicates that the optimal number of pivots is four or five. The number of pivots is limited by the difficulty of selecting optimal pivot elements.
 
 The empirical tests were coded using C++ programming language version C++11.
 ## Documentation
