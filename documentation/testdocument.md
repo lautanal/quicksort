@@ -10,10 +10,11 @@ I believe that by optimizing the algorithms, efficiency could be improved by sev
 
 ### Running Time Study
 
-A Macbook Pro computer with a 2.5GHz Intel Core I7 processor and 16GB of RAM memory was used in the empirical tests. Random integer tables of different sizes were sorted in the tests. The size of the tables varied between 2^10 − 2^30 (1,024 − 1,073,741,824).
-The results agree quite well with the previously published results (picture). Of course, the efficiency depends a lot on the architecture of the computer used in tests, so a direct comparison with other studies is difficult.
+The test computer used was a MacBook Pro with a 2.5 GHz Intel Core i7 processor and 16 GB of RAM. The measurements involved sorting randomly generated integer arrays of various sizes, ranging from 2^10 - 2^30 (1,024 to 1,073,741,824 elements).
 
-According to the tests, the dual pivot algorithm is about 10% faster than the classic quicksort. The algorithm with three pivots is about 6–7% better than dual pivot method.
+The results of the time complexity comparisons are largely consistent with previously published findings (figure). However, efficiency depends significantly on the architecture of the computer used for comparisons, making direct comparisons with other studies challenging.
+
+According to the tests, the dual-pivot algorithm is approximately 10% faster than classic QuickSort. Meanwhile, the three-pivot algorithm is about 6–7% more efficient than the dual-pivot method.
 
 <img src="png/runtime_own.png" width="750">
 
