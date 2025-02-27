@@ -2,10 +2,11 @@
 
 <img src="png/multipivot2.png" width="750">
 
-Multi-pivot quicksort algorithms have usually an odd number of pivots. The five- and seven-pivot methods are further developments of the three-pivot algorithm.
-An element is first compared to the middle pivot, so it is decided which side of the table the element belongs to. After that, the comparison with other pivot elements is continued until the exact place of the element in the partitioning is known.
+In multi-pivot algorithms, an odd number of pivots is typically used. The five- and seven-pivot methods are extensions of the three-pivot algorithm.
 
-Swaps and transfers between elements are usually carried out in rotations of several elements, thereby minimizing the number of element operations (picture below)
+An element is first compared to the middle pivot to determine which side of the array it belongs to. The comparison then continues with the other pivots until the exact position of the element in the partitioning is determined.
+
+Element swaps are usually performed as multi-element rotations to minimize the number of element manipulations (see figure).
 
 <img src="png/cyclicshifts.png" width="750">
 
