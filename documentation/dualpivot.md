@@ -2,11 +2,11 @@
 
 <img src="png/dualpivot.png" width="750">
 
-In dual pivot quicksort, any two elements of a table can be selected as pivot elements.  For example the first and the last element of the set can be selected as pivot elements. These are marked with P1 and P2 (figure), of which P1 is the smaller element.
+In dual-pivot QuickSort, the first and last elements of the array can be chosen as pivot elements, denoted as P₁ and P₂ (Figure), where P₁ is the smaller pivot.
 
-The set to be sorted is reviewed and its elements are divided into three subsets. Items smaller than P1 are placed at the beginning of the array. Elements larger than P2 are placed at the end. Elements that are between or equal in size to the pivot elements are placed in the middle (Yaroslavskiy, 2009).
+The array is traversed, and its elements are divided into three subarrays. Elements smaller than P₁ are placed at the beginning of the array. Elements larger than P₂ are placed at the end. Elements that fall between the two pivots or are equal to them are placed in the middle (Yaroslavskiy, 2009).
 
-The three subsets obtained in this way are processed recursively with the same algorithm until the whole array is in order. Yaroslavskiy's partitioning algorithm of two pivot elements is described below in pseudocode.
+These three subarrays are then processed recursively using the same algorithm until the entire array is sorted.  Below is the pseudocode for Yaroslavskiy’s dual-pivot partitioning algorithm.
 
 <img src="png/dualpivotpseudocode.png" width="750">
 
